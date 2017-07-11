@@ -1,0 +1,34 @@
+{
+  "name": "ZYReaderKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZYReaderKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luzhiyongGit/ZYReaderKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luzhiyongGit": "luzy@2345.com"
+  },
+  "source": {
+    "git": "https://github.com/luzhiyongGit/ZYReaderKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZYReaderKit/Classes/**/*",
+  "libraries": "xml2",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "dependencies": {
+    "SSZipArchive": [
+
+    ],
+    "TouchXML": [
+
+    ]
+  }
+}

@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01274F139EF04B9BB17D8835 /* Pods_ZYReaderKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C931A5BADDE50B80474FFF /* Pods_ZYReaderKit_Tests.framework */; };
+		33E8C4671F13101C00BAB4BE /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = 33E8C4661F13101C00BAB4BE /* The Silver Chair.epub */; };
+		33E8C47B1F1477A600BAB4BE /* 不是每个故事都有结局.epub in Resources */ = {isa = PBXBuildFile; fileRef = 33E8C4771F1477A600BAB4BE /* 不是每个故事都有结局.epub */; };
+		33E8C47C1F1477A600BAB4BE /* 我们都一样，年轻又彷徨（标准）.epub in Resources */ = {isa = PBXBuildFile; fileRef = 33E8C4781F1477A600BAB4BE /* 我们都一样，年轻又彷徨（标准）.epub */; };
+		33E8C47D1F1477A600BAB4BE /* 我的遥远的清平湾：插图版.epub in Resources */ = {isa = PBXBuildFile; fileRef = 33E8C4791F1477A600BAB4BE /* 我的遥远的清平湾：插图版.epub */; };
+		33E8C47E1F1477A600BAB4BE /* 夏天的玫瑰：插图版.epub in Resources */ = {isa = PBXBuildFile; fileRef = 33E8C47A1F1477A600BAB4BE /* 夏天的玫瑰：插图版.epub */; };
+		33E8C4811F147AC600BAB4BE /* BookCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E8C4801F147AC600BAB4BE /* BookCollectionViewCell.m */; };
+		561C1A6EBAA8A336A51E334E /* libPods-ZYReaderKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B527414A52D0EBB2D56657DA /* libPods-ZYReaderKit_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +28,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7AC267A6261D8EC3683FEC8E /* Pods_ZYReaderKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F06878946109A033123907 /* Pods_ZYReaderKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A354325F03AC618314FFAA1 /* libPods-ZYReaderKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F533773DC43673A5A3CE5F /* libPods-ZYReaderKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,14 @@
 
 /* Begin PBXFileReference section */
 		20705B107A8B4969CD709BAD /* Pods-ZYReaderKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYReaderKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYReaderKit_Tests/Pods-ZYReaderKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3158A5B1CBB4BAE2097257D2 /* ZYReaderKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYReaderKit.podspec; path = ../ZYReaderKit.podspec; sourceTree = "<group>"; };
+		3158A5B1CBB4BAE2097257D2 /* ZYReaderKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYReaderKit.podspec; path = ../ZYReaderKit.podspec; sourceTree = "<group>"; };
+		33E8C4661F13101C00BAB4BE /* The Silver Chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
+		33E8C4771F1477A600BAB4BE /* 不是每个故事都有结局.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "不是每个故事都有结局.epub"; sourceTree = "<group>"; };
+		33E8C4781F1477A600BAB4BE /* 我们都一样，年轻又彷徨（标准）.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我们都一样，年轻又彷徨（标准）.epub"; sourceTree = "<group>"; };
+		33E8C4791F1477A600BAB4BE /* 我的遥远的清平湾：插图版.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我的遥远的清平湾：插图版.epub"; sourceTree = "<group>"; };
+		33E8C47A1F1477A600BAB4BE /* 夏天的玫瑰：插图版.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "夏天的玫瑰：插图版.epub"; sourceTree = "<group>"; };
+		33E8C47F1F147AC600BAB4BE /* BookCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCollectionViewCell.h; sourceTree = "<group>"; };
+		33E8C4801F147AC600BAB4BE /* BookCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCollectionViewCell.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYReaderKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYReaderKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +72,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8713ED1192EDC9996653FED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8713ED1192EDC9996653FED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		984B63A494C8A0A44B6DFE36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A4F06878946109A033123907 /* Pods_ZYReaderKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYReaderKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984B63A494C8A0A44B6DFE36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ACE7A161DDF3F22E88ABAF70 /* Pods-ZYReaderKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYReaderKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYReaderKit_Example/Pods-ZYReaderKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C0C931A5BADDE50B80474FFF /* Pods_ZYReaderKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYReaderKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B527414A52D0EBB2D56657DA /* libPods-ZYReaderKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYReaderKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072405FAE3D538C9C023CBD /* Pods-ZYReaderKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYReaderKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYReaderKit_Example/Pods-ZYReaderKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7D3FBB9C816747478F7AAF9 /* Pods-ZYReaderKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYReaderKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYReaderKit_Tests/Pods-ZYReaderKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F533773DC43673A5A3CE5F /* libPods-ZYReaderKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYReaderKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +90,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7AC267A6261D8EC3683FEC8E /* Pods_ZYReaderKit_Example.framework in Frameworks */,
+				561C1A6EBAA8A336A51E334E /* libPods-ZYReaderKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +101,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				01274F139EF04B9BB17D8835 /* Pods_ZYReaderKit_Tests.framework in Frameworks */,
+				8A354325F03AC618314FFAA1 /* libPods-ZYReaderKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +117,18 @@
 				20705B107A8B4969CD709BAD /* Pods-ZYReaderKit_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		33E8C4651F13101C00BAB4BE /* eBooks */ = {
+			isa = PBXGroup;
+			children = (
+				33E8C4771F1477A600BAB4BE /* 不是每个故事都有结局.epub */,
+				33E8C4781F1477A600BAB4BE /* 我们都一样，年轻又彷徨（标准）.epub */,
+				33E8C4791F1477A600BAB4BE /* 我的遥远的清平湾：插图版.epub */,
+				33E8C47A1F1477A600BAB4BE /* 夏天的玫瑰：插图版.epub */,
+				33E8C4661F13101C00BAB4BE /* The Silver Chair.epub */,
+			);
+			path = eBooks;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -134,8 +159,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A4F06878946109A033123907 /* Pods_ZYReaderKit_Example.framework */,
-				C0C931A5BADDE50B80474FFF /* Pods_ZYReaderKit_Tests.framework */,
+				B527414A52D0EBB2D56657DA /* libPods-ZYReaderKit_Example.a */,
+				F7F533773DC43673A5A3CE5F /* libPods-ZYReaderKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,11 +168,14 @@
 		6003F593195388D20070C39A /* Example for ZYReaderKit */ = {
 			isa = PBXGroup;
 			children = (
+				33E8C4651F13101C00BAB4BE /* eBooks */,
 				6003F59C195388D20070C39A /* ZYAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZYViewController.h */,
 				6003F5A6195388D20070C39A /* ZYViewController.m */,
+				33E8C47F1F147AC600BAB4BE /* BookCollectionViewCell.h */,
+				33E8C4801F147AC600BAB4BE /* BookCollectionViewCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -280,8 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				33E8C47C1F1477A600BAB4BE /* 我们都一样，年轻又彷徨（标准）.epub in Resources */,
+				33E8C47B1F1477A600BAB4BE /* 不是每个故事都有结局.epub in Resources */,
+				33E8C4671F13101C00BAB4BE /* The Silver Chair.epub in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				33E8C47D1F1477A600BAB4BE /* 我的遥远的清平湾：插图版.epub in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				33E8C47E1F1477A600BAB4BE /* 夏天的玫瑰：插图版.epub in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZYAppDelegate.m in Sources */,
+				33E8C4811F147AC600BAB4BE /* BookCollectionViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

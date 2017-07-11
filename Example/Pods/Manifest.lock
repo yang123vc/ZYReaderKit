@@ -1,0 +1,22 @@
+PODS:
+  - SSZipArchive (1.8.1)
+  - TouchXML (0.1)
+  - ZYReaderKit (0.1.0):
+    - SSZipArchive
+    - TouchXML
+
+DEPENDENCIES:
+  - ZYReaderKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZYReaderKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+  TouchXML: 37089088da5e46f0f4a8797d320fbcfed395ab46
+  ZYReaderKit: 721adc020bf06fdb0d37b1265cdd1af6beedc0ac
+
+PODFILE CHECKSUM: 3e2e006394094c0dadfe5c8d4f0a9acab8391db3
+
+COCOAPODS: 1.2.0

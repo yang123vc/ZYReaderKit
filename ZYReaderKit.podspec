@@ -37,6 +37,11 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.frameworks = 'UIKit', 'libz', 'libxml2'
+  s.libraries = 'xml2'
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  s.dependency 'SSZipArchive'
+# s.dependency 'XMLDictionary'
+#  s.dependency 'Ono'
+  s.dependency 'TouchXML'
 end

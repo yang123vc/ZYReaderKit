@@ -1,0 +1,1301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011F21767262203ECE46542C0F00B9D3 /* aes_via_ace.h in Headers */ = {isa = PBXBuildFile; fileRef = 48487034F4FE761FBC936DE74F333BCA /* aes_via_ace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		023F68035B008B93638BB7DCA6DEE591 /* ZYSmils.h in Headers */ = {isa = PBXBuildFile; fileRef = FA571406CBD4E6B9017CF7096B552775 /* ZYSmils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E75C3FD5FA0BD96FEE4A46FE29A3E6 /* ZYReaderContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB9F89F6CE042FCDBF73ADC9166358 /* ZYReaderContainer.m */; };
+		05E874CC77BC032B9FAE2DC449ECC6D8 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C3699C4A9197EDBA1AE6A695E3FACB /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A97D2BE516E9964C54B994C9F4DEE68 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6FDD2874C808D4828F719D7D0710E0 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C5DC6930825E0DBEEA4D461A0500E72 /* ZYReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E83B6C762F4D1A72B509427CBA0C04 /* ZYReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3E8599CFCAFE12AB9489EB9DBB20F6 /* ZYReaderTopControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EB6289457690995D3356BE9D8794B1 /* ZYReaderTopControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		142B190CA1691F8242B0F4124110679A /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD58353E4095A99F170B9D4F540B4FF /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		15CA96E9464EA3AA2A89F1E87B503B53 /* ZYReaderTopControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCF99E7F24DC7E5FD54DEF0309DF1C /* ZYReaderTopControl.m */; };
+		175A6BE84D4C1EB675A019739312D53A /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = E4CA7ABAA9C2012939B42F4B6AB380EB /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1816EE85E59B9B57B15E02397651DD4D /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7626E97413365ACEFE0E26530E958D26 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FB240B2ED68144E487151EF1B5698AD /* CTidy.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FA564EFA39A4853B4D0D0EF9109C9D /* CTidy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22821C033056921B20C5A023390EBD77 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 415E6F70AB3A4BA251F842BC13E3D43F /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		244E7711F6AA229CB69586B9921BFB04 /* CXMLDocument_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF82F4DB60D6BE278811FC3BDF1FE378 /* CXMLDocument_PrivateExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264B6526DBE6A8552C540659F6AF58DB /* CXMLNamespaceNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF923D611686011A8A9502C703CC81D /* CXMLNamespaceNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E0E96C01B3B11072D3DE4DFCA3A3A8 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = FE83D33F186C857C0FC2E438AAC8A0F9 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28BBE00C33B7B0BF28AC6FC84BC7A008 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A2551C25D18B9625422048FA8A8CC1 /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C4BF7BE1A43ADE8FA42DF0EA6274FA9 /* ZYReaderWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6A3D7BE698DB852C29D3D798157BE7 /* ZYReaderWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7C4F960B4C7F881ED1D616F71134DC /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6175E4B9B3DD41AF0AF3BCD1DF5B0800 /* CXMLNode_XPathExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2EBD0840BD21BF3EA35BF7DD5C6ACC7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		32425C516AB4967761BBDB46DBF5DED7 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C50522FA4D243BE870BF23D82D5B3885 /* CXMLDocument.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32AB1CB574437AAEFDC495D52D122027 /* ZYTocReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CBCBD52CD57D2B34CAAC24061F6913B /* ZYTocReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3719523A0C4E4035E7782FB5C0C80EE1 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB43768C629CAE5CD4E0B31C957404 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38C0466DD25E3E3896A7FFBC32ABFEF1 /* ZYSmils.m in Sources */ = {isa = PBXBuildFile; fileRef = 513EFC100BE21415CC9F999BFB3A5456 /* ZYSmils.m */; };
+		3B811249B8A9F42255AC598C5FC4313B /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBE70D6C3AD5C60DFF3EAE8D377EE5 /* CXMLNode_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43347E3D5D3E44F10FF732A63C29D60D /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6A45D52D6BA14738D9FA740153D953 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		459EBDCC679E7496E98B9A574673CA3C /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B9631BE0BA27368EABA1D5E0586663BA /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A3EA4A97DE59A7FFF95FD5C370E3FC1 /* ZYResources.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C2D09027ED5E5955C439A82C3C45CE /* ZYResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A4E5915FF706A23DA13AC37F3A8A7D0 /* CXMLNode_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFAFC54E442BE37C2168F3A71216C64 /* CXMLNode_CreationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFD4A4F5CAF7F0C1B1C93FEB571B7C3 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340661D6178192DB33A16B57E86B623 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4ED4DFD2342013DF206AA3557D6FFCA3 /* ZYBook.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6F79156E3E4A373A9D1EF0036A2B2F /* ZYBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F19D2879A2DA716CD41BCD2B6309187 /* ZYReaderWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96DA09BAF58518B17ADDABDE61F97AB /* ZYReaderWebView.m */; };
+		4FB6FDDA79FB238F163803DD222BA27F /* ZYReaderCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F044271ADEBAA0629040982DBDED411A /* ZYReaderCenter.m */; };
+		521232F4DC274F9125CEF507D12757AE /* CXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FA9A407C607EE228AF11D83036AAF1 /* CXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		522302DF81352DCA7622629520D25B85 /* Pods-ZYReaderKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD24C2DDB2E3B587F4ECF6A8CAF30A75 /* Pods-ZYReaderKit_Tests-dummy.m */; };
+		53642C349F9CBB69DB12BF8798F12F81 /* ZYMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8AB8EA4FAEFFF0988503286750D319 /* ZYMetadata.m */; };
+		55C56514B9E4962F4462F0576FA13BE6 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = F278923C685E38FE1CE06747C5636533 /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		56868BB091E97923A2FD41780DB67EC8 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE01F7A2571A4445F9E09826529942F /* CTidy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		592D5A11C0AC462D2927E2DF7453799C /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1407FA19B77ACC5DFED074AD91B3F /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5E479B2CCE9F2297D86A5134AEFA9115 /* ZYReaderBottomControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0383CE7333FD10453AB332EB5B57E135 /* ZYReaderBottomControl.m */; };
+		6079D102918AA69550A3E2BD2B980CC1 /* ZYSpine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A996400857FE8F83588C7C0174602AD /* ZYSpine.m */; };
+		64ADDFF99BD9954098451B6737383034 /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = D21681510F941E4F96036171791F252F /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		668DD6CB1B2D8916AD37FFD462340629 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9052058C82A0159E5D2C156B02FA4D11 /* CXHTMLDocument.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6BCAABD31E34BCFB4705C4F3986AC25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6BE227B31B85D05071BA64638E0DD486 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BE7911F821F36AD58E85AB4A4A173 /* CXMLElement_ElementTreeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D7A5886D3AED7A2BAFCBA0493F06847 /* ZYSpine.h in Headers */ = {isa = PBXBuildFile; fileRef = BE02AA02617B79C18C57107C43AB9B02 /* ZYSpine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA5D94839917B96C338408C688DAD59 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1560E4558DB4DC959B90C83305499C52 /* CXMLNamespaceNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		701034FBF90A41145295CCB9418A877D /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B8928112E1260EEE764E95E3C3647 /* CXMLDocument_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76EFD67AC9739B56A9D15377AA64B84C /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C357054941BDCA844DA1FC5ACEDF48 /* CXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A55B52C70400124678B9EAE52946520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7A60ABF1161B91E4B2E7EBC0B5A295A2 /* ZYEpubParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C2AA288F3E4B11732F8668A2D337C /* ZYEpubParser.m */; };
+		7AF4F7E9B9B75D3B2B662C93C1CA60ED /* TouchXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B4CEFDB5F379B7A5ABB5A2A176CC6 /* TouchXML-dummy.m */; };
+		86B901AB5FC4FE71141E9059B79AC1A9 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F14932C77734AC6EB905F5EBA913AA /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86C0D317ACA613F843D78EA1D803DD78 /* ZYResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F884E63FF8E895B84B1A0F2895C181E /* ZYResource.m */; };
+		894644FFA92D5EBD822AE85C38193142 /* CXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF5ABDD6D0A9F203091AAC25829615D /* CXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B504B330F08BDDFC3D4E1AA1AD526B7 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0555A3FB1CCE23EFA854949BAE2B637E /* entropy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8B6BA73CADC8DFD99FA7B8F53CC4D8F6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 30C8EAEEDF2244B0751002EFD7DC2EFC /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C5F1A1924B45635AA396BB29E255C9D /* ZYMediaType.h in Headers */ = {isa = PBXBuildFile; fileRef = 667116B53AD3D3E53A3E4709EDE7C811 /* ZYMediaType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD23B7644992CA25A01DF9F4DC527AD /* CXMLDocument_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E60E793D16214329F4B39BEE6A521D66 /* CXMLDocument_CreationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E04BB88B332C2216E6FAF344F8EA4EA /* ZYMediaType.m in Sources */ = {isa = PBXBuildFile; fileRef = 151AC9880E15EE1455B6A773219A0AB2 /* ZYMediaType.m */; };
+		932C663B6F7983855BEE0B21B595C6B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		95B79D46F37B146BDFB987F2E7810387 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = C07AE50629C675824DEC3412DC94E8D4 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96BF588EA5B3F4BAC7A01603068DA2FD /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B98775F85D6EEFFE07C4E740E308B /* CXMLDocument_CreationExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9B65426D3984AE3C4B7001352EEBDBB6 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D74B4CCE74FE6BD6B1CBC31CE03B7A3 /* mztools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F9B18488B152A50190EE828D844496C /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F9669B05321C6A2FA5CFD654320D3 /* CXMLElement_CreationExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4C3A62D5900E9AC0CDD54E40E0FA07D /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A2902336731872035735FA14C6138776 /* CXMLElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7B436C4BA2D659543BD621A8FA9332C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A95B19AD637A4D1A3E655EB62281EBC1 /* ZYBook.m in Sources */ = {isa = PBXBuildFile; fileRef = F85C13940E6A24749C7FB4F4A6045C70 /* ZYBook.m */; };
+		AC0DE860D4983A35D68F67B924C7201F /* CXHTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9396C97D141FEAF16C557189FA790C9E /* CXHTMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFB6C7CB6AA73F519A60DF78D82B35E /* ZYReaderKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942DB5038E1B7D9F93ED51EF175067C8 /* ZYReaderKit-dummy.m */; };
+		B211B2CB4E2E95E02A656C324BA75BCB /* ZYReaderCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = BECD936D3BAA61A48205F769AB150F93 /* ZYReaderCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4FDD157DC24C5FE296B48D78C9769CC /* TouchXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A326EFDB913B7A1781F776EC947D0A6 /* TouchXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C350A798AE7E64B56731FAD17DC35F /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F74622F154D97679CDB11AD4B61E2507 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86BA1A29F593D74732C288D719440E6 /* CXMLNode_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B7DF11EE2D84FDC2C48AC7614358EB /* CXMLNode_PrivateExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC5D5F1C3E330A8E30EA30F7B0C50E2 /* ZYTocReference.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6C5CDF218A9EB1CA4CF18830DED269 /* ZYTocReference.m */; };
+		BCF905B7AA41427A2C312C0C391D7DF7 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3DA971C227F871CDE449042B107015 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE87F789D860F8A2A1E8ABCB14F72ABA /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3934615202C3DD67ADF756288103 /* SSZipArchive-dummy.m */; };
+		C0253ABE914C62CF31BC3EDAACC69A96 /* CXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D5543D6811394E1FB52E4A3F2F8E78 /* CXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E1EBDDEA9CBFFAFF12C57FC72B6031 /* ZYReaderPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B8D46BBBBEDCB7F697B52BEF1ED82B /* ZYReaderPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5454E682E658FCFA8875D3D189256FD /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 72202554660790515851653AD1AD1AFF /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C589A0477FB09F19A0C8AD7B2C87635A /* ZYReaderPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D6737AD4FEA79898D5DD64E25F6010 /* ZYReaderPage.m */; };
+		C9A895876A6BD303436FDEDC051791AC /* ZYReaderBottomControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 378AE98236B88880EF75A3F34AB77F4E /* ZYReaderBottomControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB377ED83F7A31CB301545BDCEC5AD6D /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D3F46E6D40AA480615C9B183E0CA0A /* CXMLNode_CreationExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB49660054DF1BE77349C83AA8E41B9B /* ZYEpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1278CA2AE18B46857E594BDBE3F40382 /* ZYEpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6E7022E0657388725B6C74A7E0F09A /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B301B2D1D6C1E75DB0C4232471E7F74 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD985CCFA43F749C8494A85185CD02C8 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = CC3B6122C265F689D8F72C2C2597F126 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CEAEF3C9B19692C98CD068CA6D0B569D /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C7FA92AE2908B6BBD2079CDF814218 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3C946A736FB37117E6D37FE32116CCF /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B1EC0F3CFCD6B50A238E02AD5C9E14 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D770C0D5D508ACE857DC0F5506C46BBB /* ZYResource.h in Headers */ = {isa = PBXBuildFile; fileRef = D905C8ECDA918883BD74B2A00845D830 /* ZYResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A0DF5317DCBAE67A516AD0E42A8C6F /* ZYReaderKitConstance.h in Headers */ = {isa = PBXBuildFile; fileRef = D27E9119A80B51962CAF529F47B776EA /* ZYReaderKitConstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAEAA8DC7155B7B51E74FA553244EECC /* ZYReaderContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B077B2FB720ED6DA3952FEFF30D8D4 /* ZYReaderContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48C5BFF3F9800C563AFAB3AFCE3BC30 /* CXMLElement_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CA270772CB98DFA6B39CCB6E374B7E40 /* CXMLElement_CreationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75368CDA1D49E45751B61B87B45BADA /* ZYMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 32233426E88387ACCA65697AA9F38AEE /* ZYMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D3D5534BE183E80FBA2BF7C7F62AEE /* ZYReaderKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 686484C4C7326368C550219591494637 /* ZYReaderKit.m */; };
+		EBF7B64C25A123FF33BE044D62161EC0 /* Pods-ZYReaderKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2703824084042E7FFF8624720F237 /* Pods-ZYReaderKit_Example-dummy.m */; };
+		EF89444E427E77DDADAB2FBE9AA04DB3 /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED393141A02976403F591CE4A9D7E9A /* entropy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3411AD1BEE555C7E0C37116D63B04C2 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E229C8EB46D1D8F845FDBA5CF27D86A1 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6062E6E5D112629EA3272FF196293E3 /* CXMLNode_XPathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA877131AB04AA794B6244886E58478 /* CXMLNode_XPathExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87A3EEA0F7C9A66531B47400A42A142 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 716A2CF35B89B69D6BA85792F9EBBC2D /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBADCDF0770E3543AA4CD245741D7A68 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9FC8BBBBDC272A9D0122B9348B1713 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBBE23C4B23803E858A12BB5A4C8B674 /* ZYResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F3FE8C60343CBD9E0F329682E3ACA /* ZYResources.m */; };
+		FC4B882371AD0F7EC9D8526261723A32 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = C3650A4B9CE19A082837F55180B92002 /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FD1F7297A4F327B6255BDEA4C13A2628 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B03AC6745AA0A53AD58D06E21BC9AA63 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7CD000CECD8F99F5422A216CABA840 /* CXMLElement_ElementTreeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6846EA3466EE915B44199580E910D224 /* CXMLElement_ElementTreeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F68B4A9D063EB50D161344FBDFCE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2DAEE802C26304C515446BA1EAF4C0;
+			remoteInfo = TouchXML;
+		};
+		5E2822008856BF8F25BF725A4A938DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2DAEE802C26304C515446BA1EAF4C0;
+			remoteInfo = TouchXML;
+		};
+		B385555C38C543E7ED3782DA034D5CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCD6CC363042FD65E045D3F29DDF34D;
+			remoteInfo = SSZipArchive;
+		};
+		B79B0DF104132139DC2D2E715C8A1B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCD6CC363042FD65E045D3F29DDF34D;
+			remoteInfo = SSZipArchive;
+		};
+		B7E2169A6E64989ADA6D5FE4FAB70504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D19A5DFABC6608CA5C2A13E27C8B982;
+			remoteInfo = ZYReaderKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F14932C77734AC6EB905F5EBA913AA /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/aes/pwd2key.h; sourceTree = "<group>"; };
+		0340661D6178192DB33A16B57E86B623 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/aes/hmac.c; sourceTree = "<group>"; };
+		0383CE7333FD10453AB332EB5B57E135 /* ZYReaderBottomControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderBottomControl.m; sourceTree = "<group>"; };
+		0555A3FB1CCE23EFA854949BAE2B637E /* entropy.c */ = {isa = PBXFileReference; includeInIndex = 1; name = entropy.c; path = SSZipArchive/aes/entropy.c; sourceTree = "<group>"; };
+		06F2703824084042E7FFF8624720F237 /* Pods-ZYReaderKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYReaderKit_Example-dummy.m"; sourceTree = "<group>"; };
+		074F3FE8C60343CBD9E0F329682E3ACA /* ZYResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYResources.m; sourceTree = "<group>"; };
+		09C3699C4A9197EDBA1AE6A695E3FACB /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/aes/aestab.h; sourceTree = "<group>"; };
+		0BA1407FA19B77ACC5DFED074AD91B3F /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		0CBCF99E7F24DC7E5FD54DEF0309DF1C /* ZYReaderTopControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderTopControl.m; sourceTree = "<group>"; };
+		1278CA2AE18B46857E594BDBE3F40382 /* ZYEpubParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYEpubParser.h; sourceTree = "<group>"; };
+		151AC9880E15EE1455B6A773219A0AB2 /* ZYMediaType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYMediaType.m; sourceTree = "<group>"; };
+		1560E4558DB4DC959B90C83305499C52 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLNamespaceNode.m; path = Source/CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		16AD5567B773CC375395C75DFA34E5E4 /* libPods-ZYReaderKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZYReaderKit_Tests.a"; path = "libPods-ZYReaderKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B301B2D1D6C1E75DB0C4232471E7F74 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/aes/brg_types.h; sourceTree = "<group>"; };
+		1CBCBD52CD57D2B34CAAC24061F6913B /* ZYTocReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYTocReference.h; sourceTree = "<group>"; };
+		1EA877131AB04AA794B6244886E58478 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = Source/CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		219EA6F20A248E62D4F60242FE6AA12A /* libPods-ZYReaderKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZYReaderKit_Example.a"; path = "libPods-ZYReaderKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EB6289457690995D3356BE9D8794B1 /* ZYReaderTopControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderTopControl.h; sourceTree = "<group>"; };
+		274D7A39479EA5FFAC02CF4564097E94 /* Pods-ZYReaderKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReaderKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2AD58353E4095A99F170B9D4F540B4FF /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		30C8EAEEDF2244B0751002EFD7DC2EFC /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		32233426E88387ACCA65697AA9F38AEE /* ZYMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYMetadata.h; sourceTree = "<group>"; };
+		373BE7911F821F36AD58E85AB4A4A173 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = Source/CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		378AE98236B88880EF75A3F34AB77F4E /* ZYReaderBottomControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderBottomControl.h; sourceTree = "<group>"; };
+		390B8928112E1260EEE764E95E3C3647 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = Source/CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		415E6F70AB3A4BA251F842BC13E3D43F /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/aes/hmac.h; sourceTree = "<group>"; };
+		42FA564EFA39A4853B4D0D0EF9109C9D /* CTidy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTidy.h; path = Source/Tidy/CTidy.h; sourceTree = "<group>"; };
+		45B0296C68D5ACFE1A3FA337D70A2C42 /* Pods-ZYReaderKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReaderKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46C7FA92AE2908B6BBD2079CDF814218 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		48487034F4FE761FBC936DE74F333BCA /* aes_via_ace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_via_ace.h; path = SSZipArchive/aes/aes_via_ace.h; sourceTree = "<group>"; };
+		4B3DA971C227F871CDE449042B107015 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/aes/aescrypt.c; sourceTree = "<group>"; };
+		513EFC100BE21415CC9F999BFB3A5456 /* ZYSmils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSmils.m; sourceTree = "<group>"; };
+		5A996400857FE8F83588C7C0174602AD /* ZYSpine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSpine.m; sourceTree = "<group>"; };
+		5AFAFC54E442BE37C2168F3A71216C64 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLNode_CreationExtensions.h; path = Source/Creation/CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		5B847A59DD9BAC1C7E190A5072FF3D94 /* libZYReaderKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZYReaderKit.a; path = libZYReaderKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCBE70D6C3AD5C60DFF3EAE8D377EE5 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = Source/CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		5F884E63FF8E895B84B1A0F2895C181E /* ZYResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYResource.m; sourceTree = "<group>"; };
+		6175E4B9B3DD41AF0AF3BCD1DF5B0800 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = Source/CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		63B7DF11EE2D84FDC2C48AC7614358EB /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = Source/CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		667116B53AD3D3E53A3E4709EDE7C811 /* ZYMediaType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYMediaType.h; sourceTree = "<group>"; };
+		6846EA3466EE915B44199580E910D224 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = Source/CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		686484C4C7326368C550219591494637 /* ZYReaderKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderKit.m; sourceTree = "<group>"; };
+		6D0B0736995E31CAA5CEE681344A2966 /* Pods-ZYReaderKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYReaderKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D756F91894BC1532E0C1A2F7E4039BD /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSSZipArchive.a; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3B98775F85D6EEFFE07C4E740E308B /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_CreationExtensions.m; path = Source/Creation/CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		6ED393141A02976403F591CE4A9D7E9A /* entropy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entropy.h; path = SSZipArchive/aes/entropy.h; sourceTree = "<group>"; };
+		716A2CF35B89B69D6BA85792F9EBBC2D /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		72202554660790515851653AD1AD1AFF /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/aes/aestab.c; sourceTree = "<group>"; };
+		7626E97413365ACEFE0E26530E958D26 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/aes/fileenc.h; sourceTree = "<group>"; };
+		78DB3934615202C3DD67ADF756288103 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		81B077B2FB720ED6DA3952FEFF30D8D4 /* ZYReaderContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderContainer.h; sourceTree = "<group>"; };
+		88B8D46BBBBEDCB7F697B52BEF1ED82B /* ZYReaderPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderPage.h; sourceTree = "<group>"; };
+		89D6737AD4FEA79898D5DD64E25F6010 /* ZYReaderPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderPage.m; sourceTree = "<group>"; };
+		8A326EFDB913B7A1781F776EC947D0A6 /* TouchXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = Source/TouchXML.h; sourceTree = "<group>"; };
+		8A4C2AA288F3E4B11732F8668A2D337C /* ZYEpubParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYEpubParser.m; sourceTree = "<group>"; };
+		8C7F10E1005686AC89E82D1203667A6B /* Pods-ZYReaderKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYReaderKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9052058C82A0159E5D2C156B02FA4D11 /* CXHTMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXHTMLDocument.m; path = Source/CXHTMLDocument.m; sourceTree = "<group>"; };
+		91D5543D6811394E1FB52E4A3F2F8E78 /* CXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = Source/CXMLElement.h; sourceTree = "<group>"; };
+		9396C97D141FEAF16C557189FA790C9E /* CXHTMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXHTMLDocument.h; path = Source/CXHTMLDocument.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942DB5038E1B7D9F93ED51EF175067C8 /* ZYReaderKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYReaderKit-dummy.m"; sourceTree = "<group>"; };
+		97D3F46E6D40AA480615C9B183E0CA0A /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_CreationExtensions.m; path = Source/Creation/CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		9A3CA0C54FD28357343C21CD18E178C7 /* TouchXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchXML.xcconfig; sourceTree = "<group>"; };
+		9C92CB684DFEAF6444396A07AD9BF284 /* ZYReaderKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYReaderKit-prefix.pch"; sourceTree = "<group>"; };
+		9D74B4CCE74FE6BD6B1CBC31CE03B7A3 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		9E6F9669B05321C6A2FA5CFD654320D3 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = Source/CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		A01C6CD1021D74C78379A69F5FAFD4CE /* Pods-ZYReaderKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReaderKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A2902336731872035735FA14C6138776 /* CXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = Source/CXMLElement.m; sourceTree = "<group>"; };
+		A4187218A8CB02696FF47FAF3FAC01E5 /* Pods-ZYReaderKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReaderKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8AB8EA4FAEFFF0988503286750D319 /* ZYMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYMetadata.m; sourceTree = "<group>"; };
+		AAF5ABDD6D0A9F203091AAC25829615D /* CXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = Source/CXMLDocument.h; sourceTree = "<group>"; };
+		B03AC6745AA0A53AD58D06E21BC9AA63 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		B6A2551C25D18B9625422048FA8A8CC1 /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/aes/aesopt.h; sourceTree = "<group>"; };
+		B6E48D4266693FEC3BDC6C808B0598E7 /* Pods-ZYReaderKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYReaderKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		B9631BE0BA27368EABA1D5E0586663BA /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		BAE01F7A2571A4445F9E09826529942F /* CTidy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTidy.m; path = Source/Tidy/CTidy.m; sourceTree = "<group>"; };
+		BB6A3D7BE698DB852C29D3D798157BE7 /* ZYReaderWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderWebView.h; sourceTree = "<group>"; };
+		BC9E0F2996CDAE8AB4FA77D90E13BD50 /* Pods-ZYReaderKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYReaderKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE02AA02617B79C18C57107C43AB9B02 /* ZYSpine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSpine.h; sourceTree = "<group>"; };
+		BE6C5CDF218A9EB1CA4CF18830DED269 /* ZYTocReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYTocReference.m; sourceTree = "<group>"; };
+		BECD936D3BAA61A48205F769AB150F93 /* ZYReaderCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderCenter.h; sourceTree = "<group>"; };
+		BEF923D611686011A8A9502C703CC81D /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLNamespaceNode.h; path = Source/CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		BF7CAFFD63A9507D735C6773DAA1D603 /* Pods-ZYReaderKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYReaderKit_Example-resources.sh"; sourceTree = "<group>"; };
+		C07AE50629C675824DEC3412DC94E8D4 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/aes/fileenc.c; sourceTree = "<group>"; };
+		C26B4CEFDB5F379B7A5ABB5A2A176CC6 /* TouchXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchXML-dummy.m"; sourceTree = "<group>"; };
+		C3650A4B9CE19A082837F55180B92002 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/aes/sha1.c; sourceTree = "<group>"; };
+		C50522FA4D243BE870BF23D82D5B3885 /* CXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = Source/CXMLDocument.m; sourceTree = "<group>"; };
+		C7C2D09027ED5E5955C439A82C3C45CE /* ZYResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYResources.h; sourceTree = "<group>"; };
+		C96DA09BAF58518B17ADDABDE61F97AB /* ZYReaderWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderWebView.m; sourceTree = "<group>"; };
+		CA270772CB98DFA6B39CCB6E374B7E40 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = Source/CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC3B6122C265F689D8F72C2C2597F126 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/aes/pwd2key.c; sourceTree = "<group>"; };
+		CC9FC8BBBBDC272A9D0122B9348B1713 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/aes/sha1.h; sourceTree = "<group>"; };
+		CF82F4DB60D6BE278811FC3BDF1FE378 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = Source/CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		D21681510F941E4F96036171791F252F /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/aes/prng.h; sourceTree = "<group>"; };
+		D234F343B3F7848517460CF70911F7B9 /* Pods-ZYReaderKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYReaderKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D27E9119A80B51962CAF529F47B776EA /* ZYReaderKitConstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderKitConstance.h; sourceTree = "<group>"; };
+		D2FA9A407C607EE228AF11D83036AAF1 /* CXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = Source/CXMLNode.h; sourceTree = "<group>"; };
+		D591D6B9F0E68FF85A3D526A848DDB33 /* Pods-ZYReaderKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYReaderKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D905C8ECDA918883BD74B2A00845D830 /* ZYResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYResource.h; sourceTree = "<group>"; };
+		D9C357054941BDCA844DA1FC5ACEDF48 /* CXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = Source/CXMLNode.m; sourceTree = "<group>"; };
+		DBBB43768C629CAE5CD4E0B31C957404 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/aes/aes.h; sourceTree = "<group>"; };
+		DC6A45D52D6BA14738D9FA740153D953 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		DD24C2DDB2E3B587F4ECF6A8CAF30A75 /* Pods-ZYReaderKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYReaderKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		E229C8EB46D1D8F845FDBA5CF27D86A1 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		E3E83B6C762F4D1A72B509427CBA0C04 /* ZYReaderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYReaderKit.h; sourceTree = "<group>"; };
+		E4CA7ABAA9C2012939B42F4B6AB380EB /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prng.c; path = SSZipArchive/aes/prng.c; sourceTree = "<group>"; };
+		E60E793D16214329F4B39BEE6A521D66 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_CreationExtensions.h; path = Source/Creation/CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		E95D1E393AB4F12EF71F830B8891B7BB /* Pods-ZYReaderKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYReaderKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC35F7C41C83DF35C5AA4EC6F31A3C85 /* ZYReaderKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYReaderKit.xcconfig; sourceTree = "<group>"; };
+		ED6FDD2874C808D4828F719D7D0710E0 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/aes/brg_endian.h; sourceTree = "<group>"; };
+		F044271ADEBAA0629040982DBDED411A /* ZYReaderCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderCenter.m; sourceTree = "<group>"; };
+		F1B1EC0F3CFCD6B50A238E02AD5C9E14 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		F278923C685E38FE1CE06747C5636533 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/aes/aeskey.c; sourceTree = "<group>"; };
+		F7233FD2C127E07AC7788885274BB9DD /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		F74622F154D97679CDB11AD4B61E2507 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		F75D68E6F769FAD066C65E31989839A9 /* libTouchXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTouchXML.a; path = libTouchXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85C13940E6A24749C7FB4F4A6045C70 /* ZYBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYBook.m; sourceTree = "<group>"; };
+		F8B53BDB888955A2EBD303A01813B93C /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		F93C111D3D48F98EE0AF54CB7B6A4B58 /* TouchXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchXML-prefix.pch"; sourceTree = "<group>"; };
+		FA571406CBD4E6B9017CF7096B552775 /* ZYSmils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSmils.h; sourceTree = "<group>"; };
+		FB6F79156E3E4A373A9D1EF0036A2B2F /* ZYBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYBook.h; sourceTree = "<group>"; };
+		FDAB9F89F6CE042FCDBF73ADC9166358 /* ZYReaderContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYReaderContainer.m; sourceTree = "<group>"; };
+		FE83D33F186C857C0FC2E438AAC8A0F9 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2804019F828D43C5A054D3DC1CF609A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B436C4BA2D659543BD621A8FA9332C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC9BE6A1CA17239F99B64FBCB688117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBD0840BD21BF3EA35BF7DD5C6ACC7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E00F4F64DD1F9CCC488BDFDEFF2A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCAABD31E34BCFB4705C4F3986AC25B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BBAEDF6215A435DDDB3E87FEB12DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932C663B6F7983855BEE0B21B595C6B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711407280AFE16CE0BC912C72D4C1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A55B52C70400124678B9EAE52946520 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FDA75940572CD69C1D1C104549EE68 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E615397213E5FF77CA4FA6E960AAFB91 /* ZYReaderKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		40CB8C83ECC85D3B987993DABFEB6859 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB43768C629CAE5CD4E0B31C957404 /* aes.h */,
+				48487034F4FE761FBC936DE74F333BCA /* aes_via_ace.h */,
+				4B3DA971C227F871CDE449042B107015 /* aescrypt.c */,
+				F278923C685E38FE1CE06747C5636533 /* aeskey.c */,
+				B6A2551C25D18B9625422048FA8A8CC1 /* aesopt.h */,
+				72202554660790515851653AD1AD1AFF /* aestab.c */,
+				09C3699C4A9197EDBA1AE6A695E3FACB /* aestab.h */,
+				ED6FDD2874C808D4828F719D7D0710E0 /* brg_endian.h */,
+				1B301B2D1D6C1E75DB0C4232471E7F74 /* brg_types.h */,
+				B9631BE0BA27368EABA1D5E0586663BA /* crypt.h */,
+				0555A3FB1CCE23EFA854949BAE2B637E /* entropy.c */,
+				6ED393141A02976403F591CE4A9D7E9A /* entropy.h */,
+				C07AE50629C675824DEC3412DC94E8D4 /* fileenc.c */,
+				7626E97413365ACEFE0E26530E958D26 /* fileenc.h */,
+				0340661D6178192DB33A16B57E86B623 /* hmac.c */,
+				415E6F70AB3A4BA251F842BC13E3D43F /* hmac.h */,
+				46C7FA92AE2908B6BBD2079CDF814218 /* ioapi.c */,
+				F1B1EC0F3CFCD6B50A238E02AD5C9E14 /* ioapi.h */,
+				0BA1407FA19B77ACC5DFED074AD91B3F /* mztools.c */,
+				9D74B4CCE74FE6BD6B1CBC31CE03B7A3 /* mztools.h */,
+				E4CA7ABAA9C2012939B42F4B6AB380EB /* prng.c */,
+				D21681510F941E4F96036171791F252F /* prng.h */,
+				CC3B6122C265F689D8F72C2C2597F126 /* pwd2key.c */,
+				01F14932C77734AC6EB905F5EBA913AA /* pwd2key.h */,
+				C3650A4B9CE19A082837F55180B92002 /* sha1.c */,
+				CC9FC8BBBBDC272A9D0122B9348B1713 /* sha1.h */,
+				B03AC6745AA0A53AD58D06E21BC9AA63 /* SSZipArchive.h */,
+				2AD58353E4095A99F170B9D4F540B4FF /* SSZipArchive.m */,
+				F74622F154D97679CDB11AD4B61E2507 /* SSZipCommon.h */,
+				30C8EAEEDF2244B0751002EFD7DC2EFC /* unzip.c */,
+				DC6A45D52D6BA14738D9FA740153D953 /* unzip.h */,
+				E229C8EB46D1D8F845FDBA5CF27D86A1 /* zip.c */,
+				FE83D33F186C857C0FC2E438AAC8A0F9 /* zip.h */,
+				716A2CF35B89B69D6BA85792F9EBBC2D /* ZipArchive.h */,
+				F2D645DCF4F1C6C65A172EA49816A6D6 /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		596F7510C446FB4F7A081AF9A1AF6D08 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				378AE98236B88880EF75A3F34AB77F4E /* ZYReaderBottomControl.h */,
+				0383CE7333FD10453AB332EB5B57E135 /* ZYReaderBottomControl.m */,
+				BECD936D3BAA61A48205F769AB150F93 /* ZYReaderCenter.h */,
+				F044271ADEBAA0629040982DBDED411A /* ZYReaderCenter.m */,
+				81B077B2FB720ED6DA3952FEFF30D8D4 /* ZYReaderContainer.h */,
+				FDAB9F89F6CE042FCDBF73ADC9166358 /* ZYReaderContainer.m */,
+				E3E83B6C762F4D1A72B509427CBA0C04 /* ZYReaderKit.h */,
+				686484C4C7326368C550219591494637 /* ZYReaderKit.m */,
+				D27E9119A80B51962CAF529F47B776EA /* ZYReaderKitConstance.h */,
+				88B8D46BBBBEDCB7F697B52BEF1ED82B /* ZYReaderPage.h */,
+				89D6737AD4FEA79898D5DD64E25F6010 /* ZYReaderPage.m */,
+				24EB6289457690995D3356BE9D8794B1 /* ZYReaderTopControl.h */,
+				0CBCF99E7F24DC7E5FD54DEF0309DF1C /* ZYReaderTopControl.m */,
+				BB6A3D7BE698DB852C29D3D798157BE7 /* ZYReaderWebView.h */,
+				C96DA09BAF58518B17ADDABDE61F97AB /* ZYReaderWebView.m */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6324DA40101B71B25221DA2C6B903AC3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA96063B8515466637197136AA22D77F /* Pods-ZYReaderKit_Example */,
+				F22A7D71A56BD315A5B784F3DD0D135E /* Pods-ZYReaderKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				08FDA75940572CD69C1D1C104549EE68 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9EB96137DB2B20DCC26105091361B24A /* Pods */,
+				FF4B553A65248EB0E10873EE0E4B9902 /* Products */,
+				6324DA40101B71B25221DA2C6B903AC3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94A9C489AD514D625C3A3236AFE95DDC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D81D75E58CE6B987528DA20E4E39AE8A /* EPUBCore */,
+				596F7510C446FB4F7A081AF9A1AF6D08 /* Sources */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9EB96137DB2B20DCC26105091361B24A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40CB8C83ECC85D3B987993DABFEB6859 /* SSZipArchive */,
+				DEEE1378BA0DC85D33560C3A22CA6072 /* TouchXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B49F0D9D4273E9A69422B2FB58B0EB58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC35F7C41C83DF35C5AA4EC6F31A3C85 /* ZYReaderKit.xcconfig */,
+				942DB5038E1B7D9F93ED51EF175067C8 /* ZYReaderKit-dummy.m */,
+				9C92CB684DFEAF6444396A07AD9BF284 /* ZYReaderKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYReaderKit";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE21815318C0EF7DAD335EC8DB11AFAB /* ZYReaderKit */ = {
+			isa = PBXGroup;
+			children = (
+				94A9C489AD514D625C3A3236AFE95DDC /* Classes */,
+			);
+			name = ZYReaderKit;
+			path = ZYReaderKit;
+			sourceTree = "<group>";
+		};
+		D81D75E58CE6B987528DA20E4E39AE8A /* EPUBCore */ = {
+			isa = PBXGroup;
+			children = (
+				FB6F79156E3E4A373A9D1EF0036A2B2F /* ZYBook.h */,
+				F85C13940E6A24749C7FB4F4A6045C70 /* ZYBook.m */,
+				1278CA2AE18B46857E594BDBE3F40382 /* ZYEpubParser.h */,
+				8A4C2AA288F3E4B11732F8668A2D337C /* ZYEpubParser.m */,
+				667116B53AD3D3E53A3E4709EDE7C811 /* ZYMediaType.h */,
+				151AC9880E15EE1455B6A773219A0AB2 /* ZYMediaType.m */,
+				32233426E88387ACCA65697AA9F38AEE /* ZYMetadata.h */,
+				AA8AB8EA4FAEFFF0988503286750D319 /* ZYMetadata.m */,
+				D905C8ECDA918883BD74B2A00845D830 /* ZYResource.h */,
+				5F884E63FF8E895B84B1A0F2895C181E /* ZYResource.m */,
+				C7C2D09027ED5E5955C439A82C3C45CE /* ZYResources.h */,
+				074F3FE8C60343CBD9E0F329682E3ACA /* ZYResources.m */,
+				FA571406CBD4E6B9017CF7096B552775 /* ZYSmils.h */,
+				513EFC100BE21415CC9F999BFB3A5456 /* ZYSmils.m */,
+				BE02AA02617B79C18C57107C43AB9B02 /* ZYSpine.h */,
+				5A996400857FE8F83588C7C0174602AD /* ZYSpine.m */,
+				1CBCBD52CD57D2B34CAAC24061F6913B /* ZYTocReference.h */,
+				BE6C5CDF218A9EB1CA4CF18830DED269 /* ZYTocReference.m */,
+			);
+			name = EPUBCore;
+			path = EPUBCore;
+			sourceTree = "<group>";
+		};
+		DEEE1378BA0DC85D33560C3A22CA6072 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				42FA564EFA39A4853B4D0D0EF9109C9D /* CTidy.h */,
+				BAE01F7A2571A4445F9E09826529942F /* CTidy.m */,
+				9396C97D141FEAF16C557189FA790C9E /* CXHTMLDocument.h */,
+				9052058C82A0159E5D2C156B02FA4D11 /* CXHTMLDocument.m */,
+				AAF5ABDD6D0A9F203091AAC25829615D /* CXMLDocument.h */,
+				C50522FA4D243BE870BF23D82D5B3885 /* CXMLDocument.m */,
+				E60E793D16214329F4B39BEE6A521D66 /* CXMLDocument_CreationExtensions.h */,
+				6E3B98775F85D6EEFFE07C4E740E308B /* CXMLDocument_CreationExtensions.m */,
+				CF82F4DB60D6BE278811FC3BDF1FE378 /* CXMLDocument_PrivateExtensions.h */,
+				390B8928112E1260EEE764E95E3C3647 /* CXMLDocument_PrivateExtensions.m */,
+				91D5543D6811394E1FB52E4A3F2F8E78 /* CXMLElement.h */,
+				A2902336731872035735FA14C6138776 /* CXMLElement.m */,
+				CA270772CB98DFA6B39CCB6E374B7E40 /* CXMLElement_CreationExtensions.h */,
+				9E6F9669B05321C6A2FA5CFD654320D3 /* CXMLElement_CreationExtensions.m */,
+				6846EA3466EE915B44199580E910D224 /* CXMLElement_ElementTreeExtensions.h */,
+				373BE7911F821F36AD58E85AB4A4A173 /* CXMLElement_ElementTreeExtensions.m */,
+				BEF923D611686011A8A9502C703CC81D /* CXMLNamespaceNode.h */,
+				1560E4558DB4DC959B90C83305499C52 /* CXMLNamespaceNode.m */,
+				D2FA9A407C607EE228AF11D83036AAF1 /* CXMLNode.h */,
+				D9C357054941BDCA844DA1FC5ACEDF48 /* CXMLNode.m */,
+				5AFAFC54E442BE37C2168F3A71216C64 /* CXMLNode_CreationExtensions.h */,
+				97D3F46E6D40AA480615C9B183E0CA0A /* CXMLNode_CreationExtensions.m */,
+				63B7DF11EE2D84FDC2C48AC7614358EB /* CXMLNode_PrivateExtensions.h */,
+				5BCBE70D6C3AD5C60DFF3EAE8D377EE5 /* CXMLNode_PrivateExtensions.m */,
+				1EA877131AB04AA794B6244886E58478 /* CXMLNode_XPathExtensions.h */,
+				6175E4B9B3DD41AF0AF3BCD1DF5B0800 /* CXMLNode_XPathExtensions.m */,
+				8A326EFDB913B7A1781F776EC947D0A6 /* TouchXML.h */,
+				FF01D160DD26BB85759C89622C24EA08 /* Support Files */,
+			);
+			name = TouchXML;
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		E615397213E5FF77CA4FA6E960AAFB91 /* ZYReaderKit */ = {
+			isa = PBXGroup;
+			children = (
+				B49F0D9D4273E9A69422B2FB58B0EB58 /* Support Files */,
+				CE21815318C0EF7DAD335EC8DB11AFAB /* ZYReaderKit */,
+			);
+			name = ZYReaderKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA96063B8515466637197136AA22D77F /* Pods-ZYReaderKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6D0B0736995E31CAA5CEE681344A2966 /* Pods-ZYReaderKit_Example-acknowledgements.markdown */,
+				E95D1E393AB4F12EF71F830B8891B7BB /* Pods-ZYReaderKit_Example-acknowledgements.plist */,
+				06F2703824084042E7FFF8624720F237 /* Pods-ZYReaderKit_Example-dummy.m */,
+				D591D6B9F0E68FF85A3D526A848DDB33 /* Pods-ZYReaderKit_Example-frameworks.sh */,
+				BF7CAFFD63A9507D735C6773DAA1D603 /* Pods-ZYReaderKit_Example-resources.sh */,
+				A01C6CD1021D74C78379A69F5FAFD4CE /* Pods-ZYReaderKit_Example.debug.xcconfig */,
+				45B0296C68D5ACFE1A3FA337D70A2C42 /* Pods-ZYReaderKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYReaderKit_Example";
+			path = "Target Support Files/Pods-ZYReaderKit_Example";
+			sourceTree = "<group>";
+		};
+		F22A7D71A56BD315A5B784F3DD0D135E /* Pods-ZYReaderKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D234F343B3F7848517460CF70911F7B9 /* Pods-ZYReaderKit_Tests-acknowledgements.markdown */,
+				8C7F10E1005686AC89E82D1203667A6B /* Pods-ZYReaderKit_Tests-acknowledgements.plist */,
+				DD24C2DDB2E3B587F4ECF6A8CAF30A75 /* Pods-ZYReaderKit_Tests-dummy.m */,
+				BC9E0F2996CDAE8AB4FA77D90E13BD50 /* Pods-ZYReaderKit_Tests-frameworks.sh */,
+				B6E48D4266693FEC3BDC6C808B0598E7 /* Pods-ZYReaderKit_Tests-resources.sh */,
+				A4187218A8CB02696FF47FAF3FAC01E5 /* Pods-ZYReaderKit_Tests.debug.xcconfig */,
+				274D7A39479EA5FFAC02CF4564097E94 /* Pods-ZYReaderKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYReaderKit_Tests";
+			path = "Target Support Files/Pods-ZYReaderKit_Tests";
+			sourceTree = "<group>";
+		};
+		F2D645DCF4F1C6C65A172EA49816A6D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7233FD2C127E07AC7788885274BB9DD /* SSZipArchive.xcconfig */,
+				78DB3934615202C3DD67ADF756288103 /* SSZipArchive-dummy.m */,
+				F8B53BDB888955A2EBD303A01813B93C /* SSZipArchive-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		FF01D160DD26BB85759C89622C24EA08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3CA0C54FD28357343C21CD18E178C7 /* TouchXML.xcconfig */,
+				C26B4CEFDB5F379B7A5ABB5A2A176CC6 /* TouchXML-dummy.m */,
+				F93C111D3D48F98EE0AF54CB7B6A4B58 /* TouchXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TouchXML";
+			sourceTree = "<group>";
+		};
+		FF4B553A65248EB0E10873EE0E4B9902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219EA6F20A248E62D4F60242FE6AA12A /* libPods-ZYReaderKit_Example.a */,
+				16AD5567B773CC375395C75DFA34E5E4 /* libPods-ZYReaderKit_Tests.a */,
+				6D756F91894BC1532E0C1A2F7E4039BD /* libSSZipArchive.a */,
+				F75D68E6F769FAD066C65E31989839A9 /* libTouchXML.a */,
+				5B847A59DD9BAC1C7E190A5072FF3D94 /* libZYReaderKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		124D0B9FEFA6AB7489C67A718DE543A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3719523A0C4E4035E7782FB5C0C80EE1 /* aes.h in Headers */,
+				011F21767262203ECE46542C0F00B9D3 /* aes_via_ace.h in Headers */,
+				28BBE00C33B7B0BF28AC6FC84BC7A008 /* aesopt.h in Headers */,
+				05E874CC77BC032B9FAE2DC449ECC6D8 /* aestab.h in Headers */,
+				0A97D2BE516E9964C54B994C9F4DEE68 /* brg_endian.h in Headers */,
+				CC6E7022E0657388725B6C74A7E0F09A /* brg_types.h in Headers */,
+				459EBDCC679E7496E98B9A574673CA3C /* crypt.h in Headers */,
+				EF89444E427E77DDADAB2FBE9AA04DB3 /* entropy.h in Headers */,
+				1816EE85E59B9B57B15E02397651DD4D /* fileenc.h in Headers */,
+				22821C033056921B20C5A023390EBD77 /* hmac.h in Headers */,
+				D3C946A736FB37117E6D37FE32116CCF /* ioapi.h in Headers */,
+				9B65426D3984AE3C4B7001352EEBDBB6 /* mztools.h in Headers */,
+				64ADDFF99BD9954098451B6737383034 /* prng.h in Headers */,
+				86B901AB5FC4FE71141E9059B79AC1A9 /* pwd2key.h in Headers */,
+				FBADCDF0770E3543AA4CD245741D7A68 /* sha1.h in Headers */,
+				FD1F7297A4F327B6255BDEA4C13A2628 /* SSZipArchive.h in Headers */,
+				B6C350A798AE7E64B56731FAD17DC35F /* SSZipCommon.h in Headers */,
+				43347E3D5D3E44F10FF732A63C29D60D /* unzip.h in Headers */,
+				27E0E96C01B3B11072D3DE4DFCA3A3A8 /* zip.h in Headers */,
+				F87A3EEA0F7C9A66531B47400A42A142 /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E9484262DB0CADB1F2DE6EB51A4A8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED4DFD2342013DF206AA3557D6FFCA3 /* ZYBook.h in Headers */,
+				CB49660054DF1BE77349C83AA8E41B9B /* ZYEpubParser.h in Headers */,
+				8C5F1A1924B45635AA396BB29E255C9D /* ZYMediaType.h in Headers */,
+				E75368CDA1D49E45751B61B87B45BADA /* ZYMetadata.h in Headers */,
+				C9A895876A6BD303436FDEDC051791AC /* ZYReaderBottomControl.h in Headers */,
+				B211B2CB4E2E95E02A656C324BA75BCB /* ZYReaderCenter.h in Headers */,
+				DAEAA8DC7155B7B51E74FA553244EECC /* ZYReaderContainer.h in Headers */,
+				0C5DC6930825E0DBEEA4D461A0500E72 /* ZYReaderKit.h in Headers */,
+				D9A0DF5317DCBAE67A516AD0E42A8C6F /* ZYReaderKitConstance.h in Headers */,
+				C3E1EBDDEA9CBFFAFF12C57FC72B6031 /* ZYReaderPage.h in Headers */,
+				0F3E8599CFCAFE12AB9489EB9DBB20F6 /* ZYReaderTopControl.h in Headers */,
+				2C4BF7BE1A43ADE8FA42DF0EA6274FA9 /* ZYReaderWebView.h in Headers */,
+				D770C0D5D508ACE857DC0F5506C46BBB /* ZYResource.h in Headers */,
+				4A3EA4A97DE59A7FFF95FD5C370E3FC1 /* ZYResources.h in Headers */,
+				023F68035B008B93638BB7DCA6DEE591 /* ZYSmils.h in Headers */,
+				6D7A5886D3AED7A2BAFCBA0493F06847 /* ZYSpine.h in Headers */,
+				32AB1CB574437AAEFDC495D52D122027 /* ZYTocReference.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D25A5AD3032233C90FA31D0072DDBD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB240B2ED68144E487151EF1B5698AD /* CTidy.h in Headers */,
+				AC0DE860D4983A35D68F67B924C7201F /* CXHTMLDocument.h in Headers */,
+				894644FFA92D5EBD822AE85C38193142 /* CXMLDocument.h in Headers */,
+				8CD23B7644992CA25A01DF9F4DC527AD /* CXMLDocument_CreationExtensions.h in Headers */,
+				244E7711F6AA229CB69586B9921BFB04 /* CXMLDocument_PrivateExtensions.h in Headers */,
+				C0253ABE914C62CF31BC3EDAACC69A96 /* CXMLElement.h in Headers */,
+				E48C5BFF3F9800C563AFAB3AFCE3BC30 /* CXMLElement_CreationExtensions.h in Headers */,
+				FD7CD000CECD8F99F5422A216CABA840 /* CXMLElement_ElementTreeExtensions.h in Headers */,
+				264B6526DBE6A8552C540659F6AF58DB /* CXMLNamespaceNode.h in Headers */,
+				521232F4DC274F9125CEF507D12757AE /* CXMLNode.h in Headers */,
+				4A4E5915FF706A23DA13AC37F3A8A7D0 /* CXMLNode_CreationExtensions.h in Headers */,
+				B86BA1A29F593D74732C288D719440E6 /* CXMLNode_PrivateExtensions.h in Headers */,
+				F6062E6E5D112629EA3272FF196293E3 /* CXMLNode_XPathExtensions.h in Headers */,
+				B4FDD157DC24C5FE296B48D78C9769CC /* TouchXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		170CA0626D5B4D786562DDDC73DA9CF8 /* Pods-ZYReaderKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D75C7BBF67A44625094042C6D31D56 /* Build configuration list for PBXNativeTarget "Pods-ZYReaderKit_Example" */;
+			buildPhases = (
+				A7576FD1F0A0C4E35594E7C83E2F773C /* Sources */,
+				2804019F828D43C5A054D3DC1CF609A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09CDDFBC28499EDC997D21192579A981 /* PBXTargetDependency */,
+				9D0993204F298D5FB2E4F5BA186768B8 /* PBXTargetDependency */,
+				2630A73BC489362CF810A56422791B33 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYReaderKit_Example";
+			productName = "Pods-ZYReaderKit_Example";
+			productReference = 219EA6F20A248E62D4F60242FE6AA12A /* libPods-ZYReaderKit_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A2DAEE802C26304C515446BA1EAF4C0 /* TouchXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B024AE1A47BB38A6314528E4D9D4C190 /* Build configuration list for PBXNativeTarget "TouchXML" */;
+			buildPhases = (
+				18BA94F02CAA68196D9E08CAF1D58469 /* Sources */,
+				A711407280AFE16CE0BC912C72D4C1DE /* Frameworks */,
+				8D25A5AD3032233C90FA31D0072DDBD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchXML;
+			productName = TouchXML;
+			productReference = F75D68E6F769FAD066C65E31989839A9 /* libTouchXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9D19A5DFABC6608CA5C2A13E27C8B982 /* ZYReaderKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B032DB86FAD02983686E51984AAE5C8 /* Build configuration list for PBXNativeTarget "ZYReaderKit" */;
+			buildPhases = (
+				EF1F3A5295DEBD27AC7095A4BB1FB4E1 /* Sources */,
+				A6BBAEDF6215A435DDDB3E87FEB12DE0 /* Frameworks */,
+				35E9484262DB0CADB1F2DE6EB51A4A8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A859CCFF4685AF1F166E7824244889F /* PBXTargetDependency */,
+				99A9E9E2671CC4A98344C45950E63A1B /* PBXTargetDependency */,
+			);
+			name = ZYReaderKit;
+			productName = ZYReaderKit;
+			productReference = 5B847A59DD9BAC1C7E190A5072FF3D94 /* libZYReaderKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFCD6CC363042FD65E045D3F29DDF34D /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E1F431AECB24E4D2D28F9069DD2AF4 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				31428C73BAD3AE08C3846B073DD919B0 /* Sources */,
+				6FC9BE6A1CA17239F99B64FBCB688117 /* Frameworks */,
+				124D0B9FEFA6AB7489C67A718DE543A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 6D756F91894BC1532E0C1A2F7E4039BD /* libSSZipArchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EEBB6F8B101B823708EB479F5F8648C5 /* Pods-ZYReaderKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0329437DB997C2C46C330EE2D84C1FFD /* Build configuration list for PBXNativeTarget "Pods-ZYReaderKit_Tests" */;
+			buildPhases = (
+				5D43EF4C30B0BEBFFCF0516F72BD1C4C /* Sources */,
+				80E00F4F64DD1F9CCC488BDFDEFF2A7C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZYReaderKit_Tests";
+			productName = "Pods-ZYReaderKit_Tests";
+			productReference = 16AD5567B773CC375395C75DFA34E5E4 /* libPods-ZYReaderKit_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FF4B553A65248EB0E10873EE0E4B9902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170CA0626D5B4D786562DDDC73DA9CF8 /* Pods-ZYReaderKit_Example */,
+				EEBB6F8B101B823708EB479F5F8648C5 /* Pods-ZYReaderKit_Tests */,
+				BFCD6CC363042FD65E045D3F29DDF34D /* SSZipArchive */,
+				7A2DAEE802C26304C515446BA1EAF4C0 /* TouchXML */,
+				9D19A5DFABC6608CA5C2A13E27C8B982 /* ZYReaderKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BA94F02CAA68196D9E08CAF1D58469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56868BB091E97923A2FD41780DB67EC8 /* CTidy.m in Sources */,
+				668DD6CB1B2D8916AD37FFD462340629 /* CXHTMLDocument.m in Sources */,
+				32425C516AB4967761BBDB46DBF5DED7 /* CXMLDocument.m in Sources */,
+				96BF588EA5B3F4BAC7A01603068DA2FD /* CXMLDocument_CreationExtensions.m in Sources */,
+				701034FBF90A41145295CCB9418A877D /* CXMLDocument_PrivateExtensions.m in Sources */,
+				A4C3A62D5900E9AC0CDD54E40E0FA07D /* CXMLElement.m in Sources */,
+				9F9B18488B152A50190EE828D844496C /* CXMLElement_CreationExtensions.m in Sources */,
+				6BE227B31B85D05071BA64638E0DD486 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				6DA5D94839917B96C338408C688DAD59 /* CXMLNamespaceNode.m in Sources */,
+				76EFD67AC9739B56A9D15377AA64B84C /* CXMLNode.m in Sources */,
+				CB377ED83F7A31CB301545BDCEC5AD6D /* CXMLNode_CreationExtensions.m in Sources */,
+				3B811249B8A9F42255AC598C5FC4313B /* CXMLNode_PrivateExtensions.m in Sources */,
+				2E7C4F960B4C7F881ED1D616F71134DC /* CXMLNode_XPathExtensions.m in Sources */,
+				7AF4F7E9B9B75D3B2B662C93C1CA60ED /* TouchXML-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31428C73BAD3AE08C3846B073DD919B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF905B7AA41427A2C312C0C391D7DF7 /* aescrypt.c in Sources */,
+				55C56514B9E4962F4462F0576FA13BE6 /* aeskey.c in Sources */,
+				C5454E682E658FCFA8875D3D189256FD /* aestab.c in Sources */,
+				8B504B330F08BDDFC3D4E1AA1AD526B7 /* entropy.c in Sources */,
+				95B79D46F37B146BDFB987F2E7810387 /* fileenc.c in Sources */,
+				4AFD4A4F5CAF7F0C1B1C93FEB571B7C3 /* hmac.c in Sources */,
+				CEAEF3C9B19692C98CD068CA6D0B569D /* ioapi.c in Sources */,
+				592D5A11C0AC462D2927E2DF7453799C /* mztools.c in Sources */,
+				175A6BE84D4C1EB675A019739312D53A /* prng.c in Sources */,
+				CD985CCFA43F749C8494A85185CD02C8 /* pwd2key.c in Sources */,
+				FC4B882371AD0F7EC9D8526261723A32 /* sha1.c in Sources */,
+				BE87F789D860F8A2A1E8ABCB14F72ABA /* SSZipArchive-dummy.m in Sources */,
+				142B190CA1691F8242B0F4124110679A /* SSZipArchive.m in Sources */,
+				8B6BA73CADC8DFD99FA7B8F53CC4D8F6 /* unzip.c in Sources */,
+				F3411AD1BEE555C7E0C37116D63B04C2 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D43EF4C30B0BEBFFCF0516F72BD1C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522302DF81352DCA7622629520D25B85 /* Pods-ZYReaderKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7576FD1F0A0C4E35594E7C83E2F773C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF7B64C25A123FF33BE044D62161EC0 /* Pods-ZYReaderKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1F3A5295DEBD27AC7095A4BB1FB4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95B19AD637A4D1A3E655EB62281EBC1 /* ZYBook.m in Sources */,
+				7A60ABF1161B91E4B2E7EBC0B5A295A2 /* ZYEpubParser.m in Sources */,
+				8E04BB88B332C2216E6FAF344F8EA4EA /* ZYMediaType.m in Sources */,
+				53642C349F9CBB69DB12BF8798F12F81 /* ZYMetadata.m in Sources */,
+				5E479B2CCE9F2297D86A5134AEFA9115 /* ZYReaderBottomControl.m in Sources */,
+				4FB6FDDA79FB238F163803DD222BA27F /* ZYReaderCenter.m in Sources */,
+				02E75C3FD5FA0BD96FEE4A46FE29A3E6 /* ZYReaderContainer.m in Sources */,
+				ADFB6C7CB6AA73F519A60DF78D82B35E /* ZYReaderKit-dummy.m in Sources */,
+				E9D3D5534BE183E80FBA2BF7C7F62AEE /* ZYReaderKit.m in Sources */,
+				C589A0477FB09F19A0C8AD7B2C87635A /* ZYReaderPage.m in Sources */,
+				15CA96E9464EA3AA2A89F1E87B503B53 /* ZYReaderTopControl.m in Sources */,
+				4F19D2879A2DA716CD41BCD2B6309187 /* ZYReaderWebView.m in Sources */,
+				86C0D317ACA613F843D78EA1D803DD78 /* ZYResource.m in Sources */,
+				FBBE23C4B23803E858A12BB5A4C8B674 /* ZYResources.m in Sources */,
+				38C0466DD25E3E3896A7FFBC32ABFEF1 /* ZYSmils.m in Sources */,
+				6079D102918AA69550A3E2BD2B980CC1 /* ZYSpine.m in Sources */,
+				BCC5D5F1C3E330A8E30EA30F7B0C50E2 /* ZYTocReference.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09CDDFBC28499EDC997D21192579A981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = BFCD6CC363042FD65E045D3F29DDF34D /* SSZipArchive */;
+			targetProxy = B79B0DF104132139DC2D2E715C8A1B00 /* PBXContainerItemProxy */;
+		};
+		2630A73BC489362CF810A56422791B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYReaderKit;
+			target = 9D19A5DFABC6608CA5C2A13E27C8B982 /* ZYReaderKit */;
+			targetProxy = B7E2169A6E64989ADA6D5FE4FAB70504 /* PBXContainerItemProxy */;
+		};
+		3A859CCFF4685AF1F166E7824244889F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = BFCD6CC363042FD65E045D3F29DDF34D /* SSZipArchive */;
+			targetProxy = B385555C38C543E7ED3782DA034D5CED /* PBXContainerItemProxy */;
+		};
+		99A9E9E2671CC4A98344C45950E63A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchXML;
+			target = 7A2DAEE802C26304C515446BA1EAF4C0 /* TouchXML */;
+			targetProxy = 5E2822008856BF8F25BF725A4A938DB7 /* PBXContainerItemProxy */;
+		};
+		9D0993204F298D5FB2E4F5BA186768B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchXML;
+			target = 7A2DAEE802C26304C515446BA1EAF4C0 /* TouchXML */;
+			targetProxy = 09F68B4A9D063EB50D161344FBDFCE8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B85437F5477D56BBA90DF5AC3E8BECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7233FD2C127E07AC7788885274BB9DD /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0FFC5FD980C596EC321CB13F6F2EAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01C6CD1021D74C78379A69F5FAFD4CE /* Pods-ZYReaderKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		130E56B75253CC5BF136D968A2967CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7233FD2C127E07AC7788885274BB9DD /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		185EA99BB3E89FBB8B27C3472EBF4130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274D7A39479EA5FFAC02CF4564097E94 /* Pods-ZYReaderKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1BDF8DB22CEED7C309B4BAB2AF2F8B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4187218A8CB02696FF47FAF3FAC01E5 /* Pods-ZYReaderKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E6826697E81C97FE68D9E1979238393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC35F7C41C83DF35C5AA4EC6F31A3C85 /* ZYReaderKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYReaderKit/ZYReaderKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B5EFD73DE1686DEE29E27332115F8BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3CA0C54FD28357343C21CD18E178C7 /* TouchXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchXML/TouchXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DEFE1C141D7D9D1F235D052FCE319E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC35F7C41C83DF35C5AA4EC6F31A3C85 /* ZYReaderKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYReaderKit/ZYReaderKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2349774400CF681F1AB2D41958EE9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3CA0C54FD28357343C21CD18E178C7 /* TouchXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchXML/TouchXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3D22AB6DE263B143CFD61C3B46F67D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B0296C68D5ACFE1A3FA337D70A2C42 /* Pods-ZYReaderKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0329437DB997C2C46C330EE2D84C1FFD /* Build configuration list for PBXNativeTarget "Pods-ZYReaderKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDF8DB22CEED7C309B4BAB2AF2F8B93 /* Debug */,
+				185EA99BB3E89FBB8B27C3472EBF4130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D75C7BBF67A44625094042C6D31D56 /* Build configuration list for PBXNativeTarget "Pods-ZYReaderKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFC5FD980C596EC321CB13F6F2EAA9B /* Debug */,
+				E3D22AB6DE263B143CFD61C3B46F67D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B032DB86FAD02983686E51984AAE5C8 /* Build configuration list for PBXNativeTarget "ZYReaderKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6826697E81C97FE68D9E1979238393 /* Debug */,
+				DEFE1C141D7D9D1F235D052FCE319E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E1F431AECB24E4D2D28F9069DD2AF4 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B85437F5477D56BBA90DF5AC3E8BECD /* Debug */,
+				130E56B75253CC5BF136D968A2967CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B024AE1A47BB38A6314528E4D9D4C190 /* Build configuration list for PBXNativeTarget "TouchXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2349774400CF681F1AB2D41958EE9AA /* Debug */,
+				B5EFD73DE1686DEE29E27332115F8BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
